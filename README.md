@@ -19,7 +19,8 @@ Turbofan uçak motorlarına ait zaman serisi sensör ve operasyonel ayar veriler
 ├── requirements.txt    # Gerekli Python kütüphaneleri
 ├── .gitignore          # Veri dosyaları ve geçici dosyaları hariç tutma kuralları
 └── README.md           # Proje dokümantasyonu
+```
 
 ## 👥 Proje Ekibi
-Nigar Abdullayeva — b231210561
-Rafig Abdulalyeva — B231210566
+* Nigar Abdullayeva — b231210561
+* Rafig Abdulalyeva — B231210566
