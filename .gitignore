@@ -1,0 +1,23 @@
+# Veri seti dosyaları (ödev kuralı gereği repoya ve teslim zip'ine eklenmeyecek)
+*.txt
+*.csv
+data/
+raw/
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Kayıtlı büyük model dosyaları (istenirse açılabilir)
+*.pkl
+*.joblib
+
+# Sistem ve editör dosyaları
+.DS_Store
+Thumbs.db
+.vscode/
