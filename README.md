@@ -22,5 +22,11 @@ Turbofan uçak motorlarına ait zaman serisi sensör ve operasyonel ayar veriler
 ```
 
 ## 👥 Proje Ekibi
-* Nigar Abdullayeva — b231210561
-* Rafig Abdulalyeva — B231210566
+* Nigar Abdullayeva — B231210561
+* Rafig Abdullayev — B231210566
+
+## ⚙️ Kurulum ve Çalıştırma
+Notebook çıktıları kayıtlı olsa da kodu kendi ortamınızda sıfırdan çalıştırmak için önce gerekli paketleri kurunuz:
+
+```bash
+pip install -r requirements.txt

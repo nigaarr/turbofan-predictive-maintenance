@@ -4,6 +4,9 @@
 data/
 raw/
 
+# İstenen metin dosyaları için istisnalar
+!requirements.txt
+
 # Python & Jupyter
 __pycache__/
 *.py[cod]
