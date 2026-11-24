@@ -16,6 +16,8 @@ Turbofan uçak motorlarına ait zaman serisi sensör ve operasyonel ayar veriler
 ├── notebooks/          # Açıklamalı Jupyter Notebook analiz ve modelleme dosyaları
 ├── reports/            # Proje raporu taslağı ve grafik çıktıları
 ├── src/                # İsteğe bağlı yardımcı Python modülleri
+├── data/               # Yerel ham veri dosyaları (gitignored)
+├── artifacts/          # Ön işleme sonrası yerel üretilen veri/özellik çıktıları (gitignored)
 ├── requirements.txt    # Gerekli Python kütüphaneleri
 ├── .gitignore          # Veri dosyaları ve geçici dosyaları hariç tutma kuralları
 └── README.md           # Proje dokümantasyonu
@@ -31,3 +33,11 @@ Notebook çıktıları kayıtlı olsa da kodu kendi ortamınızda sıfırdan ça
 
 ```bash
 pip install -r requirements.txt
+
+Ardından şu sırayla ilerleyiniz:
+
+train_FD001.txt, test_FD001.txt ve RUL_FD001.txt dosyalarını yerel data/ klasörüne koyun.
+
+Ön işleme notebook'unu çalıştırarak temizlenmiş/zaman serisi özellikleri üretilmiş veri setlerini ve seçili özellik listesini (selected_features) yerel artifacts/ klasörüne kaydedin.
+
+Veri analizi ve modelleme notebook'larını kendi bilgisayarınızda oluşan artifacts/ dosyalarını okuyarak çalıştırın.

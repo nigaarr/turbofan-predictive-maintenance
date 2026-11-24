@@ -1,8 +1,10 @@
 # Veri seti dosyaları (ödev kuralı gereği repoya ve teslim zip'ine eklenmeyecek)
 *.txt
 *.csv
+*.parquet
 data/
 raw/
+artifacts/
 
 # İstenen metin dosyaları için istisnalar
 !requirements.txt
